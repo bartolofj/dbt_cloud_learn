@@ -35,6 +35,6 @@ models:
   dbt_cloud_learn:
     marts:
       core:
-        +materialized:table
+        +materialized: table
     staging:
       +materialized: view
